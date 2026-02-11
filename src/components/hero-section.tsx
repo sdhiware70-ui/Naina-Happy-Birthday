@@ -1,3 +1,5 @@
+"use client";
+
 import { HeartbeatIcon, PillIcon } from "./icons";
 import { Button } from "./ui/button";
 
