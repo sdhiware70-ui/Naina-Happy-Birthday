@@ -1,5 +1,3 @@
-"use client";
-
 import { HeartbeatIcon, PillIcon } from "./icons";
 import { Button } from "./ui/button";
 
@@ -55,16 +53,6 @@ export function HeroSection() {
             </div>
         </div>
       </div>
-      <style jsx>{`
-        @keyframes pulse-slow {
-          50% {
-            opacity: 0.6;
-          }
-        }
-        .animate-pulse-slow {
-          animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-        }
-      `}</style>
     </section>
   );
 }
