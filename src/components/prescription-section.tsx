@@ -9,7 +9,7 @@ export function PrescriptionSection() {
     const [date, setDate] = useState('');
 
     useEffect(() => {
-        setDate(new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }));
+        setDate('June 01, 2026');
     }, []);
 
     const treatments = [
